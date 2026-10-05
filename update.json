@@ -1,8 +1,8 @@
 {
   "version": "5.0",
-  "build": "14.13",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.13/WSM-Setup-5.0-Build-14.13.exe",
-  "sha256": "63AB26510B496CEA38123B1928B2BBEB276BAAB48D6FB481C120503DEBB42432",
-  "notes": "WSM 5.0 Build 14.13 fixes rounded-button corner bleed, cleans up the Power & BIOS profile header layout, moves the 0 = Never timeout explanation into the timeout section, and restores white native AC/Battery numeric fields. Portable Units layout and behavior remain unchanged from Build 14.12.",
-  "tag": "v5.0-build-14.13"
+  "build": "14.14",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.14/WSM-Setup-5.0-Build-14.14.exe",
+  "sha256": "524761DBB5F1987FE3148DAE657C9A008FD6DAA1052D007523A4DDC93EDD71E2",
+  "notes": "WSM 5.0 Build 14.14 hardens Deployment Library restore against antivirus-blocked files, adds a Microsoft Defender Virus Scan button, scans backups before activation, verifies staged repository objects before the live switch, and keeps the current library untouched when staging/security verification fails.",
+  "tag": "v5.0-build-14.14"
 }
