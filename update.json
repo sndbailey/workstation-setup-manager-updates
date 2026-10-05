@@ -1,8 +1,8 @@
 {
   "version": "5.0",
-  "build": "14.15",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.15/WSM-Setup-5.0-Build-14.15.exe",
-  "sha256": "00AEAB1A3BD9CB4575C273F6B7A08C29DE421894545423374DC5143A320BB517",
-  "notes": "WSM 5.0 Build 14.15 automatically Defender-scans new library files before import, adds visible per-file progress and friendly source-name mapping to Deployment Library Virus Scan, filters misleading nested archive Unknown entries, and retains the Build 14.14 restore hardening.",
-  "tag": "v5.0-build-14.15"
+  "build": "14.17",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.17/WSM-Setup-5.0-Build-14.17.exe",
+  "sha256": "47574188818E66F5011817378649E9C8BBD8C2C044BA3EC20DA99B4750B03080",
+  "notes": "WSM 5.0 Build 14.17 adds automatic repository cleanup when library items are removed or replaced, cleans historical orphaned objects at Master startup, preserves shared objects until their final reference is removed, and includes the improved Defender scan visibility and threat identification from Build 14.16.",
+  "tag": "v5.0-build-14.17"
 }
