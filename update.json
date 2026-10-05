@@ -1,8 +1,8 @@
 {
   "version": "5.0",
-  "build": "14.14",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.14/WSM-Setup-5.0-Build-14.14.exe",
-  "sha256": "524761DBB5F1987FE3148DAE657C9A008FD6DAA1052D007523A4DDC93EDD71E2",
-  "notes": "WSM 5.0 Build 14.14 hardens Deployment Library restore against antivirus-blocked files, adds a Microsoft Defender Virus Scan button, scans backups before activation, verifies staged repository objects before the live switch, and keeps the current library untouched when staging/security verification fails.",
-  "tag": "v5.0-build-14.14"
+  "build": "14.15",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.15/WSM-Setup-5.0-Build-14.15.exe",
+  "sha256": "00AEAB1A3BD9CB4575C273F6B7A08C29DE421894545423374DC5143A320BB517",
+  "notes": "WSM 5.0 Build 14.15 automatically Defender-scans new library files before import, adds visible per-file progress and friendly source-name mapping to Deployment Library Virus Scan, filters misleading nested archive Unknown entries, and retains the Build 14.14 restore hardening.",
+  "tag": "v5.0-build-14.15"
 }
