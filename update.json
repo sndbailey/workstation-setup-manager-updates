@@ -1,8 +1,8 @@
 {
   "version": "5.0",
-  "build": "14.18",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.18/WSM-Setup-5.0-Build-14.18.exe",
-  "sha256": "A750047084B9D6F723F4BEBDB07E4AD05012EBC44D1BA27C8EC5DB43E4B85A90",
-  "notes": "WSM 5.0 Build 14.18 rebuilds Deployment Library as the colorful file-and-security dashboard, adds persistent Defender status and scan dates, selected-file identity/security details, per-file rescan/open actions, and centers the MASTER navigation badge while retaining repository cleanup and restore protection.",
-  "tag": "v5.0-build-14.18"
+  "build": "14.19",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.19/WSM-Setup-5.0-Build-14.19.exe",
+  "sha256": "4A0D5C9691C6C68302EFBD4CD0D7F5A490C603F9B73952091261813C1E0D3D2F",
+  "notes": "WSM 5.0 Build 14.19 adds a persistent top-right HELP button and embeds the complete offline technician help guide directly in WSM.exe, covering all major workflows plus a dedicated What Happens During Setup deployment-sequence page while retaining the Build 14.18 Deployment Library dashboard and all security/restore protections.",
+  "tag": "v5.0-build-14.19"
 }
