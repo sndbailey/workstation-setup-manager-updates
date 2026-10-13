@@ -1,8 +1,8 @@
 {
   "version": "5.0",
-  "build": "14.19",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.19/WSM-Setup-5.0-Build-14.19.exe",
-  "sha256": "4A0D5C9691C6C68302EFBD4CD0D7F5A490C603F9B73952091261813C1E0D3D2F",
-  "notes": "WSM 5.0 Build 14.19 adds a persistent top-right HELP button and embeds the complete offline technician help guide directly in WSM.exe, covering all major workflows plus a dedicated What Happens During Setup deployment-sequence page while retaining the Build 14.18 Deployment Library dashboard and all security/restore protections.",
-  "tag": "v5.0-build-14.19"
+  "build": "14.20",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.20/WSM-Setup-5.0-Build-14.20.exe",
+  "sha256": "8E190383AE83FCB6EF202BFA28236F11F27ECAE60179C19CCA63099DABB28C8C",
+  "notes": "WSM 5.0 Build 14.20 adds identity-aware deployment modes for Microsoft Entra ID, Active Directory Domain, Hybrid AD + Entra ID, and Local / Workgroup; AD/local modes skip Entra-specific sign-in automation while retaining taskbar defaults, and LocalAdmin can optionally be removed at cleanup for LAPS-managed clients.",
+  "tag": "v5.0-build-14.20"
 }
