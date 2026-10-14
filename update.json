@@ -1,8 +1,8 @@
 {
   "version": "5.0",
-  "build": "14.22",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.22/WSM-Setup-5.0-Build-14.22.exe",
-  "sha256": "FF80A8CD0852F5428ED8C3701D0C5AE42F9C1DED92E5704DB0499E005EE7FD61",
-  "notes": "WSM 5.0 Build 14.22 changes Portable version enforcement from a hard online-version block to a technician warning. An older Portable can continue an existing staged deployment and opens directly to Deployment Status; new deployments can continue after confirmation. Active deployments are also allowed to reopen when online version verification is temporarily unavailable. Mixed WSM.exe/WSM.dpk builds remain blocked for safety.",
-  "tag": "v5.0-build-14.22"
+  "build": "14.23",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.23/WSM-Setup-5.0-Build-14.23.exe",
+  "sha256": "9CB838AA27E143A5E9CBFDBF864466FF8778EC22315205D5C1A176003CE8C53C",
+  "notes": "WSM 5.0 Build 14.23 fixes Dell Command Update exit 107 by moving DCU live output logs out of ProgramData to C:\\Temp\\WSM\\Dell, archiving completed logs back into the WSM deployment Logs folder, adding bounded recovery for Dell service-busy code 3003, honoring reboot codes 1/5, requiring successful Dell results before advancing, and referencing Dell logs only when they actually exist. Build 14.22 Portable continuity and all earlier WSM 5.0 behavior are retained.",
+  "tag": "v5.0-build-14.23"
 }
