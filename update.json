@@ -1,8 +1,8 @@
 {
   "version": "5.0",
-  "build": "14.21",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.21/WSM-Setup-5.0-Build-14.21.exe",
-  "sha256": "D0B6706F6984E37209458119144FEE99E9FA76A6F3294E9E553426275A159A8D",
-  "notes": "WSM 5.0 Build 14.21 fixes Dark/Light appearance persistence across deployment reboot/resume cycles so the post-reboot status monitor uses the same saved WSM theme as the interactive manager; Build 14.20 identity-aware deployment behavior remains unchanged.",
-  "tag": "v5.0-build-14.21"
+  "build": "14.22",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.22/WSM-Setup-5.0-Build-14.22.exe",
+  "sha256": "FF80A8CD0852F5428ED8C3701D0C5AE42F9C1DED92E5704DB0499E005EE7FD61",
+  "notes": "WSM 5.0 Build 14.22 changes Portable version enforcement from a hard online-version block to a technician warning. An older Portable can continue an existing staged deployment and opens directly to Deployment Status; new deployments can continue after confirmation. Active deployments are also allowed to reopen when online version verification is temporarily unavailable. Mixed WSM.exe/WSM.dpk builds remain blocked for safety.",
+  "tag": "v5.0-build-14.22"
 }
