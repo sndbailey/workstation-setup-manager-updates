@@ -1,8 +1,8 @@
 {
-  "version": "5.0",
-  "build": "14.23",
-  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.0-build-14.23/WSM-Setup-5.0-Build-14.23.exe",
-  "sha256": "9CB838AA27E143A5E9CBFDBF864466FF8778EC22315205D5C1A176003CE8C53C",
-  "notes": "WSM 5.0 Build 14.23 fixes Dell Command Update exit 107 by moving DCU live output logs out of ProgramData to C:\\Temp\\WSM\\Dell, archiving completed logs back into the WSM deployment Logs folder, adding bounded recovery for Dell service-busy code 3003, honoring reboot codes 1/5, requiring successful Dell results before advancing, and referencing Dell logs only when they actually exist. Build 14.22 Portable continuity and all earlier WSM 5.0 behavior are retained.",
-  "tag": "v5.0-build-14.23"
+  "version": "5.1",
+  "build": "1.0",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.1-build-1.0/WSM-Setup-5.1-Build-1.0.exe",
+  "sha256": "1B1FBD27493840373FF10E4908252B8BA52660F90DCD5809E32CB998C05100A2",
+  "notes": "WSM 5.1 Build 1.0 fixes Dell Command Update exit 107 by moving DCU live output logs out of ProgramData to C:\\Temp\\WSM\\Dell, archiving completed logs back into the WSM deployment Logs folder, adding bounded recovery for Dell service-busy code 3003, honoring reboot codes 1/5, requiring successful Dell results before advancing, and referencing Dell logs only when they actually exist. Build 14.22 Portable continuity and all earlier WSM 5.0 behavior are retained.",
+  "tag": "v5.1-build-1.0"
 }
