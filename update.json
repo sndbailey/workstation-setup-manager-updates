@@ -1,8 +1,8 @@
 {
-  "version": "1.0",
-  "build": "4.6",
-  "installer": "https://github.com/sndbailey/3CXOfficeManager/releases/download/v1.0.4.6/3CXOfficeManager-Setup-v1.0.4.6-win-x64.exe",
-  "sha256": "26CB8498664F5160D3AF21703B912425C737B4736FF4E0043DEA7616A98CB75D",
-  "notes": "Build 4.6 fixes department-specific holiday saving, updates the vulnerable dependency, and eliminates compiler warnings. Existing licenses, Office Hours, IVR, Holidays, and GitHub updates are retained.",
-  "tag": "v1.0.4.6"
+  "version": "5.1",
+  "build": "1.0",
+  "installer": "https://github.com/sndbailey/workstation-setup-manager-updates/releases/download/v5.1-build-1.0/WSM-Setup-5.1-Build-1.0.exe",
+  "sha256": "1B1FBD27493840373FF10E4908252B8BA52660F90DCD5809E32CB998C05100A2",
+  "notes": "WSM 5.1 Build 1.0 fixes Dell Command Update exit 107 by moving DCU live output logs out of ProgramData to C:\\Temp\\WSM\\Dell, archiving completed logs back into the WSM deployment Logs folder, adding bounded recovery for Dell service-busy code 3003, honoring reboot codes 1/5, requiring successful Dell results before advancing, and referencing Dell logs only when they actually exist. Build 14.22 Portable continuity and all earlier WSM 5.0 behavior are retained.",
+  "tag": "v5.1-build-1.0"
 }
